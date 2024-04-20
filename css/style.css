@@ -1,0 +1,162 @@
+*{
+    font-family: poppins;
+}
+
+.navbar-brand{
+    font-size: 2em;
+}
+
+.custom-cover {
+    width: 100vw;
+    position: relative;
+}
+
+.img-overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.img-content{
+    color: white;
+    font-size: 25px;
+    left: 33.5%;
+    top: 45%;
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+}
+
+.custom-position{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card{
+    margin-right: 20px;
+}
+
+.stay-tuned{
+    font-family: poppins;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.adminAccess{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Styling for headers */
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Card styling */
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-title {
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 768px) {
+    .row-cols-md-2 {
+        display: block;
+    }
+
+    .col {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .container {
+        width: 90%;
+    }
+
+    .card {
+        height: calc(100% - 20px); /* Adjusting height to fill space */
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 95%;
+    }
+
+    .row-cols-md-2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .col {
+        flex: 0 0 49%; /* Columns take up 49% of container width, allowing for some spacing */
+    }
+
+    .card {
+        height: auto; /* Allow cards to adjust height based on content */
+    }
+}
+
+  
