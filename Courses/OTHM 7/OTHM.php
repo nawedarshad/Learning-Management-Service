@@ -1,0 +1,40 @@
+<?php
+
+include("../../header.php");
+if (!isset($_SESSION["isLogin"])) {
+    header("Location: ../../login.php");
+    exit();
+}
+?>
+
+<!-- In Bootstrap 5, utility classes for background and padding have changed slightly -->
+<div class="container-fluid d-flex" style="padding-top:100px;" id="content" >
+<?php
+
+include("banner.php");
+
+?>
+<div class="d-flex flex-column position-fixed" style="width: 20vw; top: 10vh; bottom: 0; right: 0; background-color: var(--bs-light);">
+
+<?php
+
+include("sidebar.php");
+
+?>
+
+</div>
+<!-- Ensure jQuery is loaded first -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<!-- Then load Popper.js if you're using Bootstrap 4 -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.11.9/dist/umd/popper.min.js"></script>
+
+
+<!-- Then Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- Your own scripts, if any, come last -->
+
+</body>
+
+</html>
