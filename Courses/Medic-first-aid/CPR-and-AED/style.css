@@ -1,0 +1,10 @@
+@media (max-width: 768px) { /* Adjusts styles for devices with widths up to 768px */
+    .accordion-button {
+        font-size: 1.2rem; /* Larger text for easier reading */
+        padding: 1rem; /* Larger padding for easier interaction */
+    }
+    .list-group-item {
+        padding: 0.8rem; /* Adjust padding */
+    }
+}
+

@@ -1,0 +1,59 @@
+*{
+    font-family: poppins;
+}
+
+.navbar-brand{
+    font-size: 2em;
+}
+
+.custom-cover {
+    width: 100vw;
+    position: relative;
+}
+
+.img-overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.img-content{
+    color: white;
+    font-size: 25px;
+    left: 33.5%;
+    top: 45%;
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+}
+
+.custom-position{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card{
+    margin-right: 20px;
+}
+
+.stay-tuned{
+    font-family: poppins;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.adminAccess{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  
